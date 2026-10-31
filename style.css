@@ -341,3 +341,8 @@ input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="
 .logo-word { object-fit: contain; flex-shrink: 0; }
 @media (max-width: 400px) { .nav-link { padding: 0 8px; font-size: .95rem; } .nav-menu .btn-small { padding: 8px 14px; } }
 .nav-link, .nav-menu .btn-small { white-space: nowrap; }
+
+.deal-note { color: #ffd0d0; font-size: .95rem; margin: 0 0 14px; }
+.deal-note strong { color: #ffd0d0; }
+.deal-note[hidden] { display: none !important; }
+.feature-body .deal-note { color: #ffd0d0; }
